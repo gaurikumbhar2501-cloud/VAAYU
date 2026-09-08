@@ -241,7 +241,7 @@ export default function App() {
             </div>
           )}
 
-          {/* VIEW 4: 8-STAGE CORE */}
+          {/* VIEW 4: 7-STAGE CORE */}
           {activeSection === 'filtration' && (
             <div className="pb-4">
               <FiltrationSection />
@@ -293,7 +293,7 @@ export default function App() {
               <button onClick={() => navigateTo('hero')} className={`transition-colors ${activeSection === 'hero' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>Home</button>
               <button onClick={() => navigateTo('flow')} className={`transition-colors ${activeSection === 'flow' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>Air Flow</button>
               <button onClick={() => navigateTo('sensors')} className={`transition-colors ${activeSection === 'sensors' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>Sensors</button>
-              <button onClick={() => navigateTo('filtration')} className={`transition-colors ${activeSection === 'filtration' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>8-Stage Core</button>
+              <button onClick={() => navigateTo('filtration')} className={`transition-colors ${activeSection === 'filtration' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>7-Stage Core</button>
               <button onClick={() => navigateTo('ai')} className={`transition-colors ${activeSection === 'ai' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>AI Forecast</button>
               <button onClick={() => navigateTo('history')} className={`transition-colors ${activeSection === 'history' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>Analytics</button>
               <button onClick={() => navigateTo('impact')} className={`transition-colors ${activeSection === 'impact' ? 'text-[#008F72] font-extrabold' : 'hover:text-[#008F72]'}`}>Impact</button>

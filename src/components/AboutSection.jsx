@@ -53,7 +53,7 @@ export default function AboutSection({ scrollTo }) {
               Active Outdoor Purification
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-              VAAYU actively draws in polluted ambient city air, passes it through an 8-stage industrial barrier core, and outputs clean, breathable air back into public spaces.
+              VAAYU actively draws in polluted ambient city air, passes it through a 7-stage industrial barrier core, and outputs clean, breathable air back into public spaces.
             </p>
           </div>
         </div>

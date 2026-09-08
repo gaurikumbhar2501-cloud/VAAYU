@@ -21,14 +21,6 @@ export default function FiltrationSection() {
     },
     {
       id: '03',
-      name: 'Fine Filter',
-      desc: 'Captures finer particulate and protects downstream filter media.',
-      type: 'Sub-Micron Media',
-      icon: Filter,
-      accent: '#06B6D4'
-    },
-    {
-      id: '04',
       name: 'Activated Carbon',
       desc: 'Adsorption stage for VOCs, odors and smoke-related gases.',
       type: 'Gas Adsorption',
@@ -36,7 +28,7 @@ export default function FiltrationSection() {
       accent: '#69BE16'
     },
     {
-      id: '05',
+      id: '04',
       name: 'Zeolite 13X',
       desc: 'Supplementary adsorption support for selected gaseous pollutants.',
       type: 'Molecular Sieve',
@@ -44,7 +36,7 @@ export default function FiltrationSection() {
       accent: '#0799D8'
     },
     {
-      id: '06',
+      id: '05',
       name: 'KMnO4 Filter',
       desc: 'Chemically treats selected gaseous pollutants including NOx.',
       type: 'Chemical Treatment',
@@ -52,7 +44,7 @@ export default function FiltrationSection() {
       accent: '#008F72'
     },
     {
-      id: '07',
+      id: '06',
       name: 'Hopcalite',
       desc: 'Catalytic stage supporting carbon monoxide oxidation.',
       type: 'Catalytic Stage',
@@ -60,7 +52,7 @@ export default function FiltrationSection() {
       accent: '#69BE16'
     },
     {
-      id: '08',
+      id: '07',
       name: 'H13 HEPA',
       desc: 'Final high-efficiency particulate filtration stage.',
       type: 'HIGH-EFFICIENCY FILTRATION',
@@ -81,14 +73,14 @@ export default function FiltrationSection() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#08233F] tracking-tight mb-3 font-display">
-            8 Stages. One Cleaner Airflow.
+            7 Stages. One Cleaner Airflow.
           </h2>
           <p className="text-sm sm:text-base text-slate-600 font-medium leading-relaxed">
             VAAYU combines layered particulate filtration, adsorption and catalytic treatment to progressively clean incoming air before it exits the system.
           </p>
         </div>
 
-        {/* 2. 8-STAGE SEQUENTIAL GRID (2 Rows of 4 on Desktop, 2 Cols on Tablet, 1 Col on Mobile) */}
+        {/* 2. 7-STAGE SEQUENTIAL GRID (2 Rows on Desktop, 2 Cols on Tablet, 1 Col on Mobile) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 relative mb-12">
           {stages.map((st, idx) => {
             const Icon = st.icon
@@ -187,7 +179,7 @@ export default function FiltrationSection() {
             &ldquo;From coarse debris to fine particulate and selected gaseous pollutants, every stage has a defined role in the purification pathway.&rdquo;
           </p>
 
-          {/* Visual Flow Strip: POLLUTED AIR -> 8-STAGE PURIFICATION -> CLEANER AIR */}
+          {/* Visual Flow Strip: POLLUTED AIR -> 7-STAGE PURIFICATION -> CLEANER AIR */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 p-3 rounded-2xl bg-[#F7FCFB] border border-slate-200/80 text-xs font-bold">
             <span className="px-3 py-1 rounded-xl bg-amber-100 text-amber-800 border border-amber-200 uppercase text-[11px]">
               POLLUTED AIR
@@ -195,7 +187,7 @@ export default function FiltrationSection() {
 
             <div className="flex items-center gap-1 text-[#008F72] font-black">
               <ArrowRight className="w-4 h-4 hidden sm:inline" />
-              <span>8-STAGE PURIFICATION</span>
+              <span>7-STAGE PURIFICATION</span>
               <ArrowRight className="w-4 h-4 hidden sm:inline" />
             </div>
 

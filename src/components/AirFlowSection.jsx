@@ -120,7 +120,7 @@ export default function AirFlowSection({ isDemoMode, liveMetrics }) {
                   <span className="text-sm font-black text-emerald-300 font-display tracking-wider">VAAYU</span>
                 </div>
                 <span className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40">
-                  8-STAGE PURIFICATION
+                  7-STAGE PURIFICATION
                 </span>
               </div>
 

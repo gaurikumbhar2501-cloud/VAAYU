@@ -18,7 +18,7 @@ export default function SidebarNav({ activeSection, scrollTo, isOpen, setIsOpen 
     { id: 'hero', label: 'Home', icon: Wind },
     { id: 'flow', label: 'Air Flow', icon: Activity },
     { id: 'sensors', label: 'Live Sensors', icon: Radio },
-    { id: 'filtration', label: '8-Stage Core', icon: Filter },
+    { id: 'filtration', label: '7-Stage Core', icon: Filter },
     { id: 'ai', label: 'AI Forecast', icon: Sparkles },
     { id: 'history', label: 'Analytics', icon: BarChart3 },
     { id: 'impact', label: 'Impact', icon: ShieldCheck },
