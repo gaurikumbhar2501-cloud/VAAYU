@@ -1,7 +1,7 @@
 import React from 'react'
 import { Sparkles, Wind, Activity, ShieldCheck, ArrowRight, Play, Radio, Building2, Zap } from 'lucide-react'
 import VaayuLogo from './VaayuLogo'
-import vaayuTowerImg from '../assets/vaayu-tower.jpeg'
+import vaayuTowerImg from '../assets/vaayu-tower-diagram.jpg'
 
 export default function HeroSection({ isDemoMode, setIsDemoMode, scrollTo }) {
   return (
